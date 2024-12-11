@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="TestSuite">
+    <test name="SmokeTests">
+        <classes>
+            <class name="com.reqres.testcases.GetUserList">
+                <methods>
+                    <include name="validateGetUsersList"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
