@@ -26,9 +26,23 @@ dependencies {
 
 test {
     useTestNG {
-        suites 'src/test/resources/testng.xml'
     }
     testLogging {
-        events "passed", "skipped", "failed"
+        events "passed", "failed", "skipped"
     }
 }
+
+// I tried creating groups to execute 'smoke' and/or 'regression' separately but couldn't
+// find out why it kept throwing "Connection refused" exception
+
+//tasks.register('smoketests', Test) {
+//    useTestNG() {
+//        suites "src/test/resources/testng-smoke.xml"
+//    }
+//}
+//
+//tasks.register('regressiontests', Test) {
+//    useTestNG() {
+//        suites "src/test/resources/testng-regression.xml"
+//    }
+//}

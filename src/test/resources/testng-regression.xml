@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<suite name="TestSuite">
-    <test name="AllTests">
+<suite name="RegressionSuite">
+    <test name="RegressionTests">
         <groups>
             <run>
-                <include name="smoke" />
                 <include name="regression" />
             </run>
         </groups>
         <classes>
-            <class name="com.reqres.testcases.GetUserList" />
             <class name="com.reqres.testcases.PostCreateUser" />
             <class name="com.reqres.testcases.PutUpdateUser" />
         </classes>
