@@ -6,4 +6,4 @@
     - (Skip this step if IntelliJ is used) Alternatively, open Command Prompt and navigate to the where the project is stored.
 2. Make sure you are in the correct directory ie. `...\API-test-framework`
 3. Run the command `gradlew test`
-    - Alternatively, you can open `build.gradle` file in the project and run the `test` section 
+    - Alternatively, you can open `build.gradle` file in the project and run the `test` task
